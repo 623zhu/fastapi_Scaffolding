@@ -1,0 +1,56 @@
+:root {
+  --surface-page: #f3f5f7;
+  --surface-panel: #ffffff;
+  --surface-muted: #eef2f3;
+  --border-default: #d7dde1;
+  --border-strong: #aab4bc;
+  --text-primary: #182028;
+  --text-secondary: #5d6872;
+  --accent: #0f766e;
+  --accent-hover: #0b5f59;
+  --success: #13795b;
+  --danger: #b42318;
+  --danger-surface: #fef0ef;
+  --focus-ring: rgba(15, 118, 110, 0.2);
+  color: var(--text-primary);
+  background: var(--surface-page);
+  font-family:
+    Inter,
+    ui-sans-serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--surface-page);
+}
+
+button,
+input {
+  font: inherit;
+  letter-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}

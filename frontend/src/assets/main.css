@@ -1,0 +1,12 @@
+@import './base.css';
+
+#app {
+  min-height: 100vh;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
